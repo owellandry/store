@@ -1,0 +1,86 @@
+.nav-bar {
+    padding: 20px;
+}
+
+.Logo-nav {
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    background-color: aquamarine;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+}
+
+.bor-nav {
+    justify-content: space-between;
+    background-color: red;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+}
+
+
+/* /////////////// SECCION /////////////// */
+
+.container {
+    display: grid;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "area1 area1 area2"
+        "area1 area1 area2"
+}
+
+.area1 {
+    grid-area: area1;
+    height: 500px;
+    background-color: red;
+    margin: 20px 10px 0px 20px;
+    border-radius: 25px;
+}
+
+.area2 {
+    grid-area: area2;
+    background-color: blue;
+    margin: 20px 20px 0px 10px;
+    border-radius: 25px;
+}
+
+
+/* ////////////////////////// */
+
+
+.cont-sect {
+    position: relative;
+    top: 100px;
+  }
+  
+  .circle {
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    z-index: 2; 
+    position: absolute;
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px;
+    top: -50%;  /* Mueve el círculo hacia arriba en la mitad del contenedor */
+    left: 0;  
+  }
+  
+  .rect-sect {
+    background-color: red;
+    height: 250px;
+    margin: 40px 20px 20px 20px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1; 
+  }
+  
+  
