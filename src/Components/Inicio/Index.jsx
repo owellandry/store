@@ -4,6 +4,7 @@ import React from 'react';
 import Nav from '../dist/nav'
 import Card from './Card';
 import Footer from '../dist/footer';
+import Section from './section';
 import SliderComponent from './Slider';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -18,17 +19,7 @@ const Index = () => {
         </div>
 
         <div>
-          <div className="container">
-            <div className="area1"></div>
-            <div className="area2"></div>
-          </div>
-        </div>
-
-        <div>
-          <div className='cont-sect'>
-            <div className='circle'></div>
-            <div className='rect-sect'></div>
-          </div>
+          <Section />
         </div>
 
       </div>
