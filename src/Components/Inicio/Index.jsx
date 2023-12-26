@@ -2,9 +2,9 @@
 import './Index.css';
 import React from 'react';
 import Nav from '../dist/nav'
-import Card from './Card';
+import Card from './dist/Card';
 import Footer from '../dist/footer';
-import SliderComponent from './Slider';
+import Slideshow from './dist/Slider';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -33,7 +33,7 @@ const Index = () => {
 
       </div>
       <div className='cont-carou'>
-        <SliderComponent />
+        <Slideshow />
       </div>
 
       <div>
