@@ -1,0 +1,44 @@
+/* Estilos para dispositivos medianos (tabletas) */
+  @media only screen and (max-width: 1920px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+
+    .cont-carou{
+        margin: 200px 100px;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 25px !important;
+    }
+  }
+
+
+  
+
+  /* Estilos para dispositivos medianos (tabletas) */
+  @media only screen and (max-width: 992px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+
+    .cont-carou{
+        margin: 150px 100px;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 10px !important;
+    }
+
+  }
+  

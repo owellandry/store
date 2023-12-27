@@ -1,6 +1,5 @@
 // src/components/Inicio/Card.jsx
 import React from 'react';
-import './Index.css';
 
 const Card = () => {
   const cardData = [

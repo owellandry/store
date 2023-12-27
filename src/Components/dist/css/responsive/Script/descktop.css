@@ -1,0 +1,11 @@
+/* Estilos para dispositivos de pantalla grande (desktops) */
+body {
+    font-size: 16px;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  

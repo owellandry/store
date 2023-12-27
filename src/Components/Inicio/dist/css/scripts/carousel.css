@@ -1,0 +1,40 @@
+/* //////// Carousel //////// */
+.slick-arrow .slick-prev {
+    display: none;
+  }
+  
+  .slick-fullwidth,
+  .carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border-radius: 25px !important;
+  }
+  
+  .slick-current {
+    display: flex !important;
+    justify-content: center;
+    outline: none;
+  }
+  
+  .carousel-image {
+    border-radius: 25px;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    border: none !important;
+    outline: none;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 20px !important;
+  }
+  
+  .slick-dots li {
+    padding: 0px 10px !important;
+  }
+  
+  button[type="button"] {
+    display: none !important;
+  }
+  

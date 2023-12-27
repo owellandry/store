@@ -1,0 +1,31 @@
+  /* //////// Section //////// */
+  .cont-sect {
+    position: relative;
+    top: 100px;
+  }
+
+  .cont-carou{
+    margin: 200px 100px;
+  }
+  
+  .circle {
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px;
+    top: -50%;
+    left: 0;
+  }
+  
+  .rect-sect {
+    background-color: red;
+    height: 250px;
+    margin: 40px 20px 20px 20px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+  }
+  

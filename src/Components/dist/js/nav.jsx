@@ -1,6 +1,6 @@
 // src/components/Inicio/Nav.js
 import React from 'react';
-import './nav.css';
+import '../css/nav.css';
 
 const Nav = () => {
   return (

@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import Slider from 'react-slick';
-import './Index.css';
 
 const SliderComponent = () => {
   const carouselImages = [

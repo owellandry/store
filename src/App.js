@@ -1,11 +1,12 @@
 // src/App.js
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Components/Inicio/Index';
-import Contact from './Components/Contact/Index';
 import Colaborations from './Components/Colaborations/Index';
-import Card from './Components/Card/Index';
+import './Components/dist/css/responsive/Index.css';
+import Contact from './Components/Contact/Index';
 import About from './Components/About/Index';
+import Home from './Components/Inicio/Index';
+import Card from './Components/Card/Index';
+import React from 'react';
 import './App.css';
 
 const App = () => {

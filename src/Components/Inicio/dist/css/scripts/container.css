@@ -1,0 +1,25 @@
+  /* //////// Container //////// */
+  .container {
+    display: grid;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "area1 area1 area2" "area1 area1 area2";
+  }
+  
+  .area1,
+  .area2 {
+    height: 500px;
+    border-radius: 25px;
+    margin: 20px;
+  }
+  
+  .area1 {
+    grid-area: area1;
+    background-color: red;
+  }
+  
+  .area2 {
+    grid-area: area2;
+    background-color: blue;
+  }
+  

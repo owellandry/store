@@ -1,0 +1,84 @@
+/* Estilos para dispositivos pequeños (teléfonos) */
+@media only screen and (max-width: 768px) {
+    body {
+      font-size: 12px;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 10px !important;
+    }
+
+    .circle{
+        width: 210px;
+        height: 210px;
+        top: -40%;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 0px !important;
+        height: 8px !important;
+        width: 8px !important;
+    }
+
+  }
+  
+
+
+
+
+
+
+  /* Estilos adicionales para dispositivos muy pequeños (teléfonos pequeños) */
+  @media only screen and (max-width: 576px) {
+    .container {
+      width: 100%;
+    }
+
+    .cont-carou{
+        margin: 150px 30px;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 5px !important;
+    }
+
+    .foot-a img {
+        width: 20px;
+    }
+
+    .icons-foot {
+        background-color: aqua;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .circle{
+        width: 180px;
+        height: 180px;
+        top: -35%;
+    }
+
+    .slick-dots li {
+        padding: 0px 0px !important;
+        margin: 0px 0px !important;
+        height: 4px !important;
+        width: 4px !important;
+    }
+
+
+    /* .nav-cont-prin{ */
+        
+    /* } */
+  }
+  
