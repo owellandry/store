@@ -1,0 +1,16 @@
+.bodd{
+    background-color: chartreuse;
+    height: 500px;
+    /* font-size: clamp(1rem, 2.5vw, 2rem); */
+    width: min(800px, 50% ) ;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 600;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
